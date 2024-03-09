@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "PSjscKdTHNq0Jx6QndkdupZXqKMkAle/jB7BJw/JsvAnf/0nwuUAxRINJ34ZqMESc0RNH7blg96OevXSU7CtLw==",
+  "success": true,
+  "projectFilePath": "/home/mateus/Área de Trabalho/C-Sharp-POO/C-Sharp-POO.csproj",
+  "expectedPackageFiles": [
+    "/home/mateus/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.2/microsoft.aspnetcore.app.ref.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

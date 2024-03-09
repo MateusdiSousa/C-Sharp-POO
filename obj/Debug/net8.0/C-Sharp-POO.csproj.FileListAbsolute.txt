@@ -1,0 +1,15 @@
+/home/mateus/Área de Trabalho/C-Sharp-POO/bin/Debug/net8.0/C-Sharp-POO
+/home/mateus/Área de Trabalho/C-Sharp-POO/bin/Debug/net8.0/C-Sharp-POO.deps.json
+/home/mateus/Área de Trabalho/C-Sharp-POO/bin/Debug/net8.0/C-Sharp-POO.runtimeconfig.json
+/home/mateus/Área de Trabalho/C-Sharp-POO/bin/Debug/net8.0/C-Sharp-POO.dll
+/home/mateus/Área de Trabalho/C-Sharp-POO/bin/Debug/net8.0/C-Sharp-POO.pdb
+/home/mateus/Área de Trabalho/C-Sharp-POO/obj/Debug/net8.0/C-Sharp-POO.GeneratedMSBuildEditorConfig.editorconfig
+/home/mateus/Área de Trabalho/C-Sharp-POO/obj/Debug/net8.0/C-Sharp-POO.AssemblyInfoInputs.cache
+/home/mateus/Área de Trabalho/C-Sharp-POO/obj/Debug/net8.0/C-Sharp-POO.AssemblyInfo.cs
+/home/mateus/Área de Trabalho/C-Sharp-POO/obj/Debug/net8.0/C-Sharp-POO.csproj.CoreCompileInputs.cache
+/home/mateus/Área de Trabalho/C-Sharp-POO/obj/Debug/net8.0/C-Sharp-POO.sourcelink.json
+/home/mateus/Área de Trabalho/C-Sharp-POO/obj/Debug/net8.0/C-Sharp-POO.dll
+/home/mateus/Área de Trabalho/C-Sharp-POO/obj/Debug/net8.0/refint/C-Sharp-POO.dll
+/home/mateus/Área de Trabalho/C-Sharp-POO/obj/Debug/net8.0/C-Sharp-POO.pdb
+/home/mateus/Área de Trabalho/C-Sharp-POO/obj/Debug/net8.0/C-Sharp-POO.genruntimeconfig.cache
+/home/mateus/Área de Trabalho/C-Sharp-POO/obj/Debug/net8.0/ref/C-Sharp-POO.dll
