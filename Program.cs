@@ -1,4 +1,6 @@
-﻿using C_Sharp_POO;
+﻿using System.Runtime.InteropServices;
+using C_Sharp_POO;
+using C_Sharp_POO.Classes;
 
 namespace C_Sharp_POO
 {
@@ -10,15 +12,20 @@ namespace C_Sharp_POO
 
             System.Console.WriteLine("Objeto bag sendo instânciado e retornando os objetons itens: \n");
 
+            //Crio itens 
             Item ball = new Item("Ball", 0, 0);
             Item car = new Item("Car", 4, 22.00M);
             Item doy = new Item("Doy", 3, 15.55M);
 
+            //Crio uma bag para guardar os itens
             Bag bag = new Bag();
+
+            //Adiciono os itens a mochila
             bag.AddItem(doy);
             bag.AddItem(car);
             bag.AddItem(ball);
 
+            // Mostro todos os itens que estão na minha bag
             bag.ListItens();
 
 
@@ -57,8 +64,22 @@ namespace C_Sharp_POO
             // bola.quantidade = 1;
             // bola.preco = 150M;
 
+            ICalculatorFreight calculator = SelectFreght.Start();
 
+            var optionFreight = calculator.Calculate(bag);
 
+            if (optionFreight != null)
+            {
+                System.Console.WriteLine($"Frete selecionado: {optionFreight.Name}");
+            }
+
+            //Outros exemplos de classe pai e filho 
+            //Stream => Pai
+            //  FileStream => filho
+            //  MemoryStream => filho
+
+            IPayment payment = SelectPayment.Select();
+            payment.Process(bag);
         }
     }
 }

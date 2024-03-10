@@ -9,27 +9,43 @@ namespace C_Sharp_POO
     {
         //Compose é quando um objeto é composto por outros objetos
         // EXEMPLO: A bag é composta por vários itens dentro dela
-        public List<Item> Itens;
+        private IList<Item> _itens;
+        public IEnumerable<Item> Itens 
+        {
+            get { return _itens.AsEnumerable();}
+        }
 
         private decimal totalPrice;
+
+        public decimal TotalPrice
+        {
+            get
+            { 
+                return _itens.Sum(x => x.Total);
+            }
+        }
         public Bag()
         {
-            Itens = new List<Item>();
+            _itens = new List<Item>();
         }
 
         public void AddItem(Item item)
         {
-            Itens.Add(item);
+            _itens.Add(item);
+        }
+
+        public void RemoveItem(Item item)
+        {
+            _itens.Remove(item);
         }
 
         public void ListItens()
         {
-            foreach (Item item in Itens)
+            foreach (Item item in _itens)
             {
                 System.Console.WriteLine($"\nName: {item.Name}");
                 System.Console.WriteLine($"Unity Price: {item.Price}");
                 System.Console.WriteLine($"Quantity: {item.Quantity}");
-                totalPrice += item.Total;
             }
             System.Console.WriteLine($"\nTotal: {totalPrice.ToString("C")}");
         }
